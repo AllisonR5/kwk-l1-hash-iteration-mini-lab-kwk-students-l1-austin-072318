@@ -6,7 +6,7 @@ summer_olympics.merge!(:Atlanta => "1996")
 end 
 
 upcased_city =[] 
-summer_olympics.each do |place|
+summer_olympics.each_key do |place|
   upcased_city << place.upcase
 end
 
