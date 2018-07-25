@@ -5,7 +5,7 @@ summer_olympics.merge!(:Atlanta => "1996")
  puts "The #{year} summer olympics took place in #{place}."
 end 
 
-upcased_city =[summer_olympics] << upcase
+upcased_city =[summer_olympics] << summer_olympics.upcase
 summer_olympics.each do |place|
   
 
